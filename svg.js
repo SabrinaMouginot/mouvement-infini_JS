@@ -23,3 +23,19 @@ gsap.to(val, {
     circle.setAttribute('cy', point.y);
   }
 });
+
+/************************************ Animation ************************************/
+// A faire : chercher pq ça ne fct pas. 
+
+// Idée : 
+// external javascript   https://unpkg.com/gsap@3.11.4/dist/gsap.min.js 
+
+// mots clé : gsap / greensock
+
+// Piste : 
+// https://greensock.com/docs/v3/Installation
+
+// Si l'effet que vous souhaitez obtenir consiste simplement à animer un élément le long d'un chemin SVG, 
+// comme dans la démo ci-dessus, vous pouvez vérifier le MotionPathPlugin de GreenSock. 
+// Il vous permettra d'animer facilement n'importe quel élément DOM à partir d'un chemin que vous fournissez.
+// https://greensock.com/motionpath/
